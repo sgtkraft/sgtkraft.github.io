@@ -37,6 +37,8 @@
     "gulp-sass": "^3.2.1",
     "gulp-zip": "^4.2.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.13"
+  },
   "description": ""
 }
