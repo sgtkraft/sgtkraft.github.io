@@ -4,13 +4,67 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Oju10Seconds</title>
+
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="../css/style.css" rel="stylesheet">
+
     <script src="Build/UnityLoader.js"></script>
     <script>
       UnityLoader.SystemInfo.mobile = false;
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/oju.json");
+      var gameInstance = UnityLoader.instantiate("gameContainer2", "Build/oju.json");
     </script>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta property="og:url" content="https://sgtkraft.github.io/oju-10seconds/"/>
+    <meta property="og:title" content="お重10Seconds"/>
+    <meta property="og:description" content="「すがたくらふと」のあっさりゲーム\n10秒間で「お重」をたくさん積み上げよう！"/>
+    <meta property="og:image" content="https://sgtkraft.github.io/img/ogp/Oju10Seconds.png"/>
   </head>
+
   <body>
-    <div id="gameContainer" style="width: 600px; height: 1000px; margin: auto"></div>
+    <div class="container">
+      <!-- Title -->
+      <!-- <h1 class="flex-center color-primary-text">お重10Seconds</h1> -->
+
+      <!-- <h5 class="pc flex-center color-main-text" align="center">
+        Frame Outsidersは同人サークル「串寿司(くしずし)」が開発しています
+      </h5>
+      <h5 class="sp flex-center color-main-text" align="center">
+        Frame Outsidersは同人サークル<br>「串寿司(くしずし)」が開発しています
+      </h5> -->
+
+      <div class="card animated fadeIn">
+        <div class="card-body" align="center">
+          <!-- <div id="gameContainer" style="width: 600px; height: 1000px; margin: auto"></div> -->
+          <div id="gameContainer2"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156111933-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-156111933-1');
+    </script>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom JavaScript -->
+    <!-- <script type="text/javascript" src="js/loading.js"></script> -->
   </body>
 </html>
