@@ -1,82 +1,75 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="ja">
 
-    <!-- Font Awesome -->
-    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="../css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="../css/style.css" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      UnityLoader.SystemInfo.mobile = false;
-      var gameInstance = UnityLoader.instantiate("gameContainer2", "Build/oju.json");
-    </script>
+	<!-- SEO -->
+	<title>Oju10Seconds</title>
+	<meta name="description" content="すがたくらふと のあっさりゲーム「お重10Seconds」10秒間でお重をたくさん積み上げよう！">
+	<meta name="twitter:card" content="summary"/>
+	<meta property="og:url" content="https://sgtkraft.github.io/oju-10seconds/"/>
+	<meta property="og:title" content="お重10Seconds"/>
+	<meta property="og:description" content="「すがたくらふと」のあっさりゲーム<br>10秒間で「お重」をたくさん積み上げよう！"/>
+	<meta property="og:image" content="/oju-10seconds/img/ogp/Oju10Seconds.png"/>
 
-    <!-- SEO -->
-    <title>Oju10Seconds</title>
-    <meta name="twitter:card" content="summary"/>
-    <meta property="og:url" content="https://sgtkraft.github.io/oju-10seconds/"/>
-    <meta property="og:title" content="お重10Seconds"/>
-    <meta property="og:description" content="「すがたくらふと」のあっさりゲーム<br>10秒間で「お重」をたくさん積み上げよう！"/>
-    <meta property="og:image" content="/img/oju/ogp/Oju10Seconds.png"/>
+	<!-- Font Awesome -->
+	<link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="../css/mdb.min.css" rel="stylesheet">
+	<!-- Your custom styles (optional) -->
+	<link href="../css/style.css" rel="stylesheet">
 
-  	<!-- Favicon -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/img/oju/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/img/oju/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/img/oju/favicons/favicon-16x16.png">
-	<link rel="manifest" href="/img/oju/favicons/site.webmanifest">
-	<link rel="mask-icon" href="/img/oju/favicons/safari-pinned-tab.svg" color="#f2283e">
-	<link rel="shortcut icon" href="/img/oju/favicons/favicon.ico">
+	<script src="Build/UnityLoader.js"></script>
+	<script>
+		UnityLoader.SystemInfo.mobile = false;
+		var gameInstance = UnityLoader.instantiate("gameContainer2", "Build/oju.json");
+	</script>
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/oju-10seconds/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/oju-10seconds/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/oju-10seconds/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/oju-10seconds/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/oju-10seconds/img/favicons/safari-pinned-tab.svg" color="#f2283e">
+	<link rel="shortcut icon" href="/oju-10seconds/img/favicons/favicon.ico">
 	<meta name="msapplication-TileColor" content="#f2283e">
-	<meta name="msapplication-config" content="/img/oju/favicons/browserconfig.xml">
+	<meta name="msapplication-config" content="/oju-10seconds/img/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#f2283e">
-  </head>
+</head>
 
-  <body>
-    <div class="container">
-      <!-- Title -->
-      <!-- <h1 class="flex-center color-primary-text">お重10Seconds</h1> -->
+<body>
+	<div class="container">
+		<div class="card animated fadeIn">
+			<div class="card-body" align="center">
+			<!-- <div id="gameContainer" style="width: 600px; height: 1000px; margin: auto"></div> -->
+			<div id="gameContainer2"/>
+			</div>
+		</div>
+	</div>
 
-      <!-- <h5 class="pc flex-center color-main-text" align="center">
-        Frame Outsidersは同人サークル「串寿司(くしずし)」が開発しています
-      </h5>
-      <h5 class="sp flex-center color-main-text" align="center">
-        Frame Outsidersは同人サークル<br>「串寿司(くしずし)」が開発しています
-      </h5> -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156111933-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-156111933-1');
+	</script>
 
-      <div class="card animated fadeIn">
-        <div class="card-body" align="center">
-          <!-- <div id="gameContainer" style="width: 600px; height: 1000px; margin: auto"></div> -->
-          <div id="gameContainer2"/>
-        </div>
-      </div>
-    </div>
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- Custom JavaScript -->
+	<!-- <script type="text/javascript" src="js/loading.js"></script> -->
+</body>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156111933-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-156111933-1');
-    </script>
-
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Custom JavaScript -->
-    <!-- <script type="text/javascript" src="js/loading.js"></script> -->
-  </body>
 </html>
