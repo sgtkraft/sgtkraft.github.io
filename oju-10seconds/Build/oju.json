@@ -1,7 +1,7 @@
 {
 "companyName": "Sgtkraft",
 "productName": "Oju10Seconds",
-"productVersion": "1.4.0",
+"productVersion": "1.4.1",
 "dataUrl": "oju.data.unityweb",
 "wasmCodeUrl": "oju.wasm.code.unityweb",
 "wasmFrameworkUrl": "oju.wasm.framework.unityweb",
