@@ -57,7 +57,8 @@ footer.page-footer
 .color-background
 {
 	/* MDB4: grey darken-4 */
-	background-color: #212121 !important;
+	/*background-color: #212121 !important;*/
+	background-color: #F2283E !important;
 }
 
 .color-primary
