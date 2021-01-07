@@ -7,11 +7,11 @@
 
 	<!-- SEO -->
 	<title>Oju10Seconds</title>
-	<meta name="description" content="すがたくらふと のあっさりゲーム「お重10Seconds」10秒間でお重をたくさん積み上げよう！">
+	<meta name="description" content="すがたくらふと のあっさりゲーム「お重10Seconds」お重を10秒でたくさん積み上げ、徳の高さを示そう！">
 	<meta name="twitter:card" content="summary"/>
 	<meta property="og:url" content="https://sgtkraft.github.io/oju-10seconds/"/>
 	<meta property="og:title" content="お重10Seconds"/>
-	<meta property="og:description" content="「すがたくらふと」のあっさりゲーム<br>10秒間で「お重」をたくさん積み上げよう！"/>
+	<meta property="og:description" content="すがたくらふと のあっさりゲーム「お重10Seconds」お重を10秒でたくさん積み上げ、徳の高さを示そう！"/>
 	<meta property="og:image" content="/oju-10seconds/img/ogp/Oju10Seconds.png"/>
 
 	<!-- Font Awesome -->
@@ -26,7 +26,7 @@
 	<script src="Build/UnityLoader.js"></script>
 	<script>
 		UnityLoader.SystemInfo.mobile = false;
-		var gameInstance = UnityLoader.instantiate("gameContainer2", "Build/oju.json");
+		var gameInstance = UnityLoader.instantiate("unityContainer", "Build/oju.json");
 	</script>
 
 	<!-- Favicon -->
@@ -45,8 +45,55 @@
 	<div class="container">
 		<div class="card animated fadeIn">
 			<div class="card-body" align="center">
+			<div id="unityContainer" style="width: 100%; height: calc(100vw * 1.7778);"></div>
 			<!-- <div id="gameContainer" style="width: 600px; height: 1000px; margin: auto"></div> -->
-			<div id="gameContainer2"/>
+			<!-- <div id="gameContainer2"/> -->
+			</div>
+		</div>
+
+		<div class="card animated fadeIn">
+			<div class="card-body" align="center">
+				<h4 class="card-title">お重10Seconds</h4>
+
+				<p class="card-text flex-center">
+					すがたくらふと のあっさりゲーム「お重10Seconds」<br>
+					10秒間でお重をたくさん積み上げ、徳の高さを示そう！<br>
+					<br>
+					【ゲーム情報】<br>
+					・サウンドは付いていません。<br>
+					・オンラインランキングに対応しています。<br>
+					→RPGアツマール版とはランキング情報が連携していません。<br>
+					・スマートデバイスにも対応していますが、端末スペックの影響で<br>
+					動作が不安定になる可能性があります。<br>
+					<br>
+					ーーー<br>
+					<br>
+					【作者】<br>
+					企画 / プログラミング: すがたく<br>
+					Twitter→https://twitter.com/sgtkraft_ts<br>
+					<br>
+					デザイン: カワズミ<br>
+					Twitter→https://twitter.com/lunakurou<br>
+					<br>
+					ーーー<br>
+					<br>
+					【リンク】<br>
+					RPGアツマール版→https://game.nicovideo.jp/atsumaru/games/gm17898<br>
+					unityroom版→https://unityroom.com/games/oju-10seconds<br>
+					<br>
+					創作サークル「串寿司」にて開発中の画面ループアクションゲーム<br>
+					「Frame Outsiders」Webサイト→https://sgtkraft.github.io/frame-outsiders/<br>
+					<br>
+					ーーー<br>
+					<br>
+					【ゲームに関するお問い合わせについて】<br>
+					紹介記事、実況動画などゲームに関する投稿は歓迎しております！(連絡は戴かなくとも結構です)<br>
+					しかしながら、作者や関係者、作品の名誉・信用を毀損することはお控えくださいますようお願い致します。<br>
+					<br>
+					その他バグ報告なども含めたお問い合わせについてはお手数ですが作者Twitterへご連絡ください。<br>
+					(個人運営のため対応できかねる場合もございます)<br>
+					お問い合わせ先→https://twitter.com/sgtkraft_ts
+				</p>
 			</div>
 		</div>
 	</div>
